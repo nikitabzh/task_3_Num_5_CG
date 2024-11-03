@@ -11,6 +11,7 @@ module org.example.task_3_num_5_cg {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
+
     opens org.example.task_3_num_5_cg to javafx.fxml;
     exports org.example.task_3_num_5_cg;
 }

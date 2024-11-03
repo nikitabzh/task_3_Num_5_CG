@@ -1,14 +1,12 @@
 package org.example.task_3_num_5_cg;
 
-import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+class Vertex {
+    double x, y, z;
 
-public class HelloController {
-    @FXML
-    private Label welcomeText;
-
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    Vertex(double x, double y, double z) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
     }
 }
+

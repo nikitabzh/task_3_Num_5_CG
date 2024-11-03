@@ -16,7 +16,7 @@ class ModelTest {
         model.addFace(new Face(List.of(0, 1, 2)));
         model.deleteVertex(1);
 
-        Assertions.assertEquals(2, model.vertices.size());
-        Assertions.assertEquals(0, model.faces.size());
+        assertEquals(2, model.vertices.size());
+        assertEquals(0, model.faces.size());
     }
 }
